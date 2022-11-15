@@ -1,3 +1,10 @@
+let obj = {
+  val1: 1,
+  val2: 4
+}
+
+console.log(obj?.val1);
+
 // Получить элементы
 const popupOpenButton = document.querySelector(".menu__open-popup");
 const popup = document.querySelector(".popup");

@@ -1,3 +1,7 @@
+::placeholder {
+  color: gray;
+}
+
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 

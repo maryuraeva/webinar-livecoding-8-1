@@ -1,7 +1,9 @@
+import "./pages/index.css";
+
 let obj = {
   val1: 1,
-  val2: 4
-}
+  val2: 4,
+};
 
 console.log(obj?.val1);
 

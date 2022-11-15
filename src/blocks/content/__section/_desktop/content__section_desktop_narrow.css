@@ -1,0 +1,3 @@
+.content__section_desktop_narrow {
+    max-width: calc(984px + 48px*2);
+}

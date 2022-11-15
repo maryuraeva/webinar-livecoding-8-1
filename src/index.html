@@ -13,7 +13,7 @@
 
     <header class="header page__header">
       <div class="logo header__logo">
-        <img class="logo__image" src="./images/logo.svg" alt="Логотип с изображением России">
+        <img class="logo__image" src="<%=require('./images/logo.svg')%>" alt="Логотип с изображением России">
       </div>
 
       <!-- Добавить кнопку -->
@@ -47,7 +47,7 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img src="./images/image_lead.jpg" alt="Карта путешествия по России" class="lead__image">
+        <img src="<%=require('./images/image_lead.jpg')%>" alt="Карта путешествия по России" class="lead__image">
         <p class="lead__caption">
           Ваша полка — верхняя
         </p>
@@ -77,7 +77,7 @@
     <!-- Добавить попап -->
     <section class="popup">
       <div class="popup__container">
-        <img src="./images/close_btn.svg" alt="" class="popup__close">
+        <img src="<%=require('./images/close_btn.svg')%>" alt="" class="popup__close">
         <div class="popup__content">
           <h2 class="popup__title">О проекте</h2>
           <p class="popup__text">
